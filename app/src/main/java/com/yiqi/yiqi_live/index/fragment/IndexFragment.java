@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.yiqi.yiqi_live.R;
 import com.yiqi.yiqi_live.base.fragment.BaseFragment;
@@ -41,7 +42,7 @@ public class IndexFragment extends BaseFragment {
     @BindView(R.id.fragment_index_tab)
     TabLayout mFragmentIndexTab;
     @BindView(R.id.fragment_index_search)
-    ImageButton mFragmentIndexSearch;
+    ImageView mFragmentIndexSearch;
     @BindView(R.id.fragment_index_pager)
     ViewPager mFragmentIndexPager;
     private String[] mTitle;
