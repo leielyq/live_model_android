@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="268px"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#d7d7d7">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="宝宝，您还未关注任何主播哦！"
+        android:textSize="28px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48px"
+        android:layout_marginTop="220px"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24px"
+            android:layout_marginLeft="32px"
+            android:text="猜你喜欢"
+            android:textSize="24px"/>
+
+        <ImageView
+            android:layout_width="28px"
+            android:layout_height="28px"
+            android:layout_marginLeft="559px"
+            app:srcCompat="@drawable/ic_search"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoFrameLayout>

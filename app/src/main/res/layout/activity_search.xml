@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yiqi.yiqi_live.search.SearchActivity">
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="596px"
+            android:layout_height="58px"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="16px"
+            android:background="@drawable/border_rad"
+            android:drawableLeft="@drawable/ic_search"
+            android:gravity="center_vertical"
+            android:transitionName="b1"
+            android:hint="请输入昵称 / 用户ID"
+            android:paddingLeft="19px"/>
+
+        <TextView
+            android:id="@+id/activity_search_back"
+            android:layout_width="58px"
+            android:layout_height="28px"
+            android:layout_marginBottom="24px"
+            android:layout_marginLeft="660px"
+            android:layout_marginTop="31px"
+            android:text="取消"
+            android:textColor="#00D5CC"
+            android:textSize="28px"/>
+    </com.zhy.autolayout.AutoFrameLayout>
+
+    <include
+        layout="@layout/partition_view"/>
+
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>
