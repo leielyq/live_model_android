@@ -17,7 +17,7 @@
             android:layout_marginLeft="32px"
             android:layout_marginTop="16px"
             android:background="@drawable/border_rad"
-            android:drawableLeft="@drawable/ic_search"
+            android:drawableLeft="@drawable/search"
             android:gravity="center_vertical"
             android:transitionName="b1"
             android:hint="请输入昵称 / 用户ID"

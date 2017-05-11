@@ -22,6 +22,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity {
+    static {
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+    }
 
     ViewPager mActivityMainPager;
     private TextView mTextMessage;
@@ -67,7 +70,7 @@ public class MainActivity extends BaseActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        BNVHelper  m =  new BNVHelper();
+        BNVHelper m = new BNVHelper();
         m.disableShiftMode(navigation);
     }
 

@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30px"
         android:layout_marginTop="215px"
-        android:drawableLeft="@drawable/ic_search"
+        android:drawableLeft="@drawable/search"
         android:text="30km"
         android:textColor="#fff"/>
 
@@ -33,7 +33,7 @@
         android:layout_height="30px"
         android:layout_marginLeft="214px"
         android:layout_marginTop="215px"
-        android:drawableLeft="@drawable/ic_search"
+        android:drawableLeft="@drawable/search"
         android:text="2525"
         android:textColor="#fff"
         android:textSize="24px"/>
