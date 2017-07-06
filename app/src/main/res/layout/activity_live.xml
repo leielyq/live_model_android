@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="32px"
+    tools:context="com.yiqi.yiqi_live.live.LiveActivity">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:layout_width="260px"
+            android:layout_height="64px"
+            android:background="@drawable/border_rad_gray"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="2px"
+                android:layout_marginTop="2px"
+                android:src="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20px"
+                android:layout_marginLeft="78px"
+                android:text="张艺兴"
+                android:textColor="#fff"
+                android:textSize="20px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20px"
+                android:layout_marginLeft="78px"
+                android:layout_marginTop="36px"
+                android:text="221212"
+                android:textColor="#fff"
+                android:textSize="20px"/>
+
+            <TextView
+                android:layout_width="80px"
+                android:layout_height="44px"
+                android:layout_marginLeft="168px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/border_rad_color"
+                android:gravity="center"
+                android:text="关注"
+                android:textColor="#fff"
+                android:textSize="24px"/>
+        </com.zhy.autolayout.AutoFrameLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="336px"
+            android:layout_height="60px"
+            android:layout_marginLeft="12px"
+            android:layout_marginTop="2px"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="28px"
+            android:layout_marginTop="2px"
+            android:src="@color/colorAccent"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="240px"
+            android:layout_height="46px"
+            android:background="@drawable/border_rad_gray"
+            android:gravity="center"
+            android:text="魅力：9899889 > "
+            android:textColor="#fff"
+            android:textSize="26px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24px"
+            android:layout_marginLeft="231px"
+            android:text="房间ID：46878845"
+            android:textSize="26px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="230px"
+        android:layout_marginTop="402px">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginLeft="606px"
+            android:layout_marginTop="35px"
+            android:src="#ca000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginLeft="606px"
+            android:layout_marginTop="150px"
+            android:src="#ca000000"/>
+    </com.zhy.autolayout.AutoFrameLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32px"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginLeft="606px"
+            android:src="#ca000000"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

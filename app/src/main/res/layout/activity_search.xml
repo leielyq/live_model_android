@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.zhy.autolayout.AutoLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <EditText
+        <android.support.v7.widget.SearchView
+            android:id="@+id/activity_search_view"
             android:layout_width="596px"
             android:layout_height="58px"
             android:layout_marginLeft="32px"
@@ -19,9 +21,10 @@
             android:background="@drawable/border_rad"
             android:drawableLeft="@drawable/search"
             android:gravity="center_vertical"
-            android:transitionName="b1"
-            android:hint="请输入昵称 / 用户ID"
-            android:paddingLeft="19px"/>
+            android:hint="@string/InputName"
+            android:inputType="textPersonName"
+            android:paddingLeft="19px"
+            android:transitionName="b1"/>
 
         <TextView
             android:id="@+id/activity_search_back"
@@ -38,7 +41,15 @@
     <include
         layout="@layout/partition_view"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HistoryHeuristic"/>
 
+    <ListView
+        android:id="@+id/activity_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </com.zhy.autolayout.AutoLinearLayout>

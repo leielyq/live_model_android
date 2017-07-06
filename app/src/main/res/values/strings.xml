@@ -97,4 +97,9 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="HistoryHeuristic">历史搜索</string>
+    <string name="InputName">请输入</string>
+    <string name="mine">我的</string>
+    <string name="EditUserInfo">编辑资料</string>
+    <string name="introduce">简介：</string>
 </resources>

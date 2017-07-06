@@ -93,6 +93,7 @@ public class IndexFragment extends BaseFragment {
             }
         });
         mFragmentIndexTab.setupWithViewPager(mFragmentIndexPager);
+        mFragmentIndexPager.setOffscreenPageLimit(4);
     }
 
     @Override
