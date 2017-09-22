@@ -38,4 +38,11 @@ dependencies {
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile 'homhomlin.lib:sldinglayout:0.9.0'
+    compile files('libs/wechat-sdk-android-with-mta-1.1.6.jar')
+    compile files('libs/umeng_social_tool.jar')
+    compile files('libs/umeng_social_net.jar')
+    compile files('libs/umeng_social_api.jar')
+    compile files('libs/SocialSDK_WeiXin_Full.jar')
+    compile files('libs/SocialSDK_QQ_Full.jar')
+    compile files('libs/open_sdk_r5781.jar')
 }

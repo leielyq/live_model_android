@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/call/call.iml" filepath="$PROJECT_DIR$/call/call.iml" />
       <module fileurl="file://$PROJECT_DIR$/yiqi_live.iml" filepath="$PROJECT_DIR$/yiqi_live.iml" />
     </modules>
   </component>
